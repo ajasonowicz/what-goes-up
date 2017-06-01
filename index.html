@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="resources/style.css">
+<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.6s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+  <br>
+  <h2><strong>Supplemental data from:</strong> What goes up must come down: Diel vertical migration in the deep-water sablefish (Anoplopoma fimbria) revealed by pop-up satellite archival tags</h2>
+
+  <h1></h1>
+
+  <br>
+  Links to Interactive Figures for PSAT tagged sablefish
+  <br>
+  <br>
+
+  <table id="biod">
+    <thead>
+      <tr>
+        <th>Tag Sn</th>
+        <th>Length (mm)</th>
+        <th>Sex</th>
+        <th>Release Date</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a href="interactive-files/1338-data.html" target="_blank">1338</a></td>
+        <td>680</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1397-data.html" target="_blank">1397</a></td>
+        <td>930</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1465-data.html" target="_blank">1465</a></td>
+        <td>700</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1474-data.html" target="_blank">1474</a></td>
+        <td>720</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1506-data.html" target="_blank">1506</a></td>
+        <td>900 +</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1518-data.html" target="_blank">1518</a></td>
+        <td>840</td>
+        <td>F</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1541-data.html" target="_blank">1541</a></td>
+        <td>720</td>
+        <td>F</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1554-data.html" target="_blank">1554</a></td>
+        <td>730</td>
+        <td>F</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1555-data.html" target="_blank">1555</a></td>
+        <td>700</td>
+        <td>F</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1576-data.html" target="_blank">1576</a></td>
+        <td>700</td>
+        <td>M</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1577-data.html" target="_blank">1577</a></td>
+        <td>710</td>
+        <td>F</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1619-data.html" target="_blank">1619</a></td>
+        <td>750</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1622-data.html" target="_blank">1622</a></td>
+        <td>720</td>
+        <td>M</td>
+        <td>Jun 09 2016</td>
+      </tr>
+      <tr>
+        <td><a href="interactive-files/1635-data.html" target="_blank">1635</a></td>
+        <td>720</td>
+        <td>F</td>
+        <td>Jun 08 2016</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <em>Click on tag serial number to view figure and interact with the raw data</em>
+  <br>
+  <br>
+
+
+
+
+
+
+
+  <button class="accordion">About</button>
+  <div class="panel">
+    <h3><strong>About:</strong></h3>
+    These figures are supplemental to:
+    <br>
+    <br>
+      Goetz, F.W., Jasonowicz, A.J., Roberts, S.B. What goes up must come down: Diel vertical migration in the deep-water sablefish (<i>Anoplopoma fimbria</i>) revealed by pop-up satellite archival tags. <b>In Review</b>.
+    <br>
+    <br>
+    They were made using <a href="http://bokeh.pydata.org/en/latest/" target="_blank">bokeh for python</a>.
+    <br>
+    <br>
+  </div>
+
+  <button class="accordion">Instructions/Help</button>
+  <div class="panel">
+    <h3><strong>Instructions:</strong></h3>
+    You can interact with the data using the toolbar found in the upper right corner of the figure.  The functions are as follows:
+    <br>
+    <img src="resources/toolbar.png" alt="Bokeh Toolbar" width=135>
+    <br>
+    <h3><strong>Help:</strong></h3>
+    If you are having diffculties loading the figures, please try viewing them in a browser <strong><em>other</em></strong> than Internet Explorer such as Mozilla Forefox or Google Chrome.
+    <br>
+  </div>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    }
+  }
+  </script>
+
+  </body>
+</html>
