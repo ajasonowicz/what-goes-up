@@ -3,7 +3,7 @@
   
 These files are interactive plots containing the depth and temperature data from sablefish (_Anoplopoma fimbria_) tagged with pop-up satellite archival tags.  They are supplemetal to:
 
-<cite>Goetz, F. W., A. J. Jasonowicz, and S. B. Roberts. 2017. What goes up must come down: Diel vertical migration in the deep-water sablefish (<i>Anoplopoma fimbria</i>) revealed by pop-up satellite archival tags. Fisheries Oceanography. doi:<a href="https://doi.org/10.1111/fog.12239">10.1111/fog.12239</a>.</cite>
+<cite>Goetz, F.W., Jasonowicz, A.J., and Roberts, S.B. 2017. What goes up must come down: Diel vertical migration in the deep-water sablefish (<i>Anoplopoma fimbria</i>) revealed by pop-up satellite archival tags. Fisheries Oceanography. doi:<a href="https://doi.org/10.1111/fog.12239">10.1111/fog.12239</a>.</cite>
 
 
 A web page containing this data can be found at <a href="https://ajasonowicz.github.io/what_goes_up">https://ajasonowicz.github.io/what-goes-up</a>
