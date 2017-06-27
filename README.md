@@ -1,6 +1,5 @@
 <h2><strong>Supplemental data from:</strong> What goes up must come down: Diel vertical migration in the deep-water sablefish (Anoplopoma fimbria) revealed by pop-up satellite archival tags</h2>
 
-<h1></h1>
   
 These files are interactive plots containing the depth and temperature data from sablefish (_Anoplopoma fimbria_) tagged with pop-up satellite archival tags.  They are supplemetal to:
 
