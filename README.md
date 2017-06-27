@@ -11,4 +11,4 @@ A web page containing this data can be found at <a href="https://ajasonowicz.git
 
 Unzip repository and navigate to index.html.  A table with sample data for each of the fish can be used to navigate to the interactive data file associated with that fish.  Alternatively the html files with the containing the data can be viewed individually.  They are contained in the directory "interactive-files" and named as follows: (Tag Serial Number)-data.html
 
-For best performance, files are best viewed in a web browser other than internet explorer.
+___For best performance, files are best viewed in a web browser other than internet explorer.___
