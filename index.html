@@ -1,203 +1,292 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
   <link rel="stylesheet" type="text/css" href="resources/style.css">
-<style>
-button.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 16px;
-    transition: 0.6s;
-}
+  <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+  <style>
+    button.accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 16px;
+      transition: 0.6s;
+    }
 
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
-}
+    button.accordion.active,
+    button.accordion:hover {
+      background-color: #ddd;
+    }
 
-button.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
+    button.accordion:after {
+      content: '\002B';
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
 
-button.accordion.active:after {
-    content: "\2212";
-}
+    button.accordion.active:after {
+      content: "\2212";
+    }
 
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-</style>
+    div.panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .card-body {
+      text-align: left;
+      height: 700px;
+    }
+  </style>
 </head>
+
 <body>
 
   <br>
   <h2><strong>Supplemental data from:</strong> What goes up must come down: Diel vertical migration in the deep-water sablefish (Anoplopoma fimbria) revealed by pop-up satellite archival tags</h2>
   <h1></h1>
 
-  <br>
-  Links to Interactive Figures for PSAT tagged sablefish
-  <br>
-  <br>
+  <div class="card text-center">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" aria-controls="interactive-data" role="tab" href="#interactive-data">Interactive Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" aria-controls="supplemental-info" role="tab" href="#supplemental-info">Supplemental Information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" aria-controls="help" role="tab" href="#help">Instructions/Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" aria-controls="about" role="tab" href="#about">About</a>
+        </li>
+      </ul>
+    </div>
 
-  <table id="biod">
-    <thead>
-      <tr>
-        <th>Tag Sn</th>
-        <th>Length (mm)</th>
-        <th>Sex</th>
-        <th>Release Date</th>
-      </tr>
-    </thead>
+    <div class="tab-content">
+      <div id="interactive-data" class="tab-pane fade show active" role='tabpanel'>
+        <div class="card-body">
+          <br> Links to Interactive Figures for PSAT tagged sablefish
+          <br><br>
+          <table id="biod">
+            <thead>
+              <tr>
+                <th>Tag Sn</th>
+                <th>Length (mm)</th>
+                <th>Sex</th>
+                <th>Release Date</th>
+              </tr>
+            </thead>
 
-    <tbody>
-      <tr>
-        <td><a href="interactive-files/1338-data.html" target="_blank">1338</a></td>
-        <td>680</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1397-data.html" target="_blank">1397</a></td>
-        <td>930</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1465-data.html" target="_blank">1465</a></td>
-        <td>700</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1474-data.html" target="_blank">1474</a></td>
-        <td>720</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1506-data.html" target="_blank">1506</a></td>
-        <td>900 +</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1518-data.html" target="_blank">1518</a></td>
-        <td>840</td>
-        <td>F</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1541-data.html" target="_blank">1541</a></td>
-        <td>720</td>
-        <td>F</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1554-data.html" target="_blank">1554</a></td>
-        <td>730</td>
-        <td>F</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1555-data.html" target="_blank">1555</a></td>
-        <td>700</td>
-        <td>F</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1576-data.html" target="_blank">1576</a></td>
-        <td>700</td>
-        <td>M</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1577-data.html" target="_blank">1577</a></td>
-        <td>710</td>
-        <td>F</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1619-data.html" target="_blank">1619</a></td>
-        <td>750</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1622-data.html" target="_blank">1622</a></td>
-        <td>720</td>
-        <td>M</td>
-        <td>Jun 09 2016</td>
-      </tr>
-      <tr>
-        <td><a href="interactive-files/1635-data.html" target="_blank">1635</a></td>
-        <td>720</td>
-        <td>F</td>
-        <td>Jun 08 2016</td>
-      </tr>
-    </tbody>
-  </table>
+            <tbody>
+              <tr>
+                <td><a href="interactive-files/1338-data.html" target="_blank">1338</a></td>
+                <td>680</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1397-data.html" target="_blank">1397</a></td>
+                <td>930</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1465-data.html" target="_blank">1465</a></td>
+                <td>700</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1474-data.html" target="_blank">1474</a></td>
+                <td>720</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1506-data.html" target="_blank">1506</a></td>
+                <td>900 +</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1518-data.html" target="_blank">1518</a></td>
+                <td>840</td>
+                <td>F</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1541-data.html" target="_blank">1541</a></td>
+                <td>720</td>
+                <td>F</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1554-data.html" target="_blank">1554</a></td>
+                <td>730</td>
+                <td>F</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1555-data.html" target="_blank">1555</a></td>
+                <td>700</td>
+                <td>F</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1576-data.html" target="_blank">1576</a></td>
+                <td>700</td>
+                <td>M</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1577-data.html" target="_blank">1577</a></td>
+                <td>710</td>
+                <td>F</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1619-data.html" target="_blank">1619</a></td>
+                <td>750</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1622-data.html" target="_blank">1622</a></td>
+                <td>720</td>
+                <td>M</td>
+                <td>Jun 09 2016</td>
+              </tr>
+              <tr>
+                <td><a href="interactive-files/1635-data.html" target="_blank">1635</a></td>
+                <td>720</td>
+                <td>F</td>
+                <td>Jun 08 2016</td>
+              </tr>
+            </tbody>
+          </table>
 
-  <br>
-  <em>Click on tag serial number to view figure and interact with the raw data</em>
-  <br>
-  <br>
+          <br>
+          <em>Click on tag serial number to view figure and interact with the raw data</em>
+          <br>
+          <br>
 
+        </div>
+      </div>
 
+      <div id="supplemental-info" class="tab-pane fade" role='tabpanel'>
+        <div class="card-body">
+          <h4><b>Appendix 1:</b></h4>
+          Individual data for tagged fish including length, sex, release date, depth at release site, fishing depth, tag reporting status, and recovery status
+          <br>
+          <br>
+          <ul class='list'>
+            <li>
+              File 1 <i class="far fa-file-word"></i>
+              <a class="btn btn-sm btn-outline-primary disabled" role="button" href="./supplemental-files/fog12239-sup-0001-AppendixS1.docx"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0001-AppendixS1.docx" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 2 <i class="far fa-file-excel"></i>
+              <a class="btn btn-sm btn-outline-primary disabled" role="button" href="./supplemental-files/fog12239-sup-0010-SupInfo.xlsx"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0010-SupInfo.xlsx" download><i class="fas fa-download"></i></a>
+            </li>
+          </ul>
 
+          <h4><b>Appendix 2:</b></h4>
 
+          Wavelet power spectra for pop-up satellite archival-tagged sablefish (Anoplopoma fimbria). For the data on each tag, the following labels apply: A) The raw depth data downloaded from the tag. Dark grey shaded regions indicate
+          nighttime. Note different scales for Y axis. B) bias corrected local wavelet power spectrum of the depth data. Wavelet power is color coded (red - high wavelet power; blue - low wavelet power), black lines show the 95% confidence level and gray
+          shading represents the cone of influence. C) scale averaged wavelet spectrum for the 22 – 26 hour band of the wavelet power spectrum (solid line) and associated 95% confidence level (dashed line). D) The Morlet wavelet (&omega;0 = 6). E) global wavelet
+          power spectrum (solid line) and associated 95% confidence level (dashed line). Regions shaded in red in A and C are regions where significant diurnal vertical migrations were identified (scale averaged spectrum exceeds 95 % confidence level).
+          Note that no regions are shaded red for tag 1518 because significant diurnal vertical migratory behavior was not identified in the global wavelet spectrum.
+          <br>
+          <br>
+          <ul class='list'>
+            <li>
+              File 1 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0002-AppendixS2.1.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0002-AppendixS2.1.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 2 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0003-AppendixS2.2.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0003-AppendixS2.2.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 3 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0004-AppendixS2.3.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0004-AppendixS2.3.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 4 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0005-AppendixS2.4.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0005-AppendixS2.4.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 5 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0006-AppendixS2.5.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0006-AppendixS2.5.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 6 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0007-AppendixS2.6.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0007-AppendixS2.6.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+            <li>
+              File 7 <i class="far fa-file-image"></i>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0008-AppendixS2.7.tiff"><i class="fas fa-eye"></i> </a>
+              <a class="btn btn-sm btn-outline-primary" role="button" href="./supplemental-files/fog12239-sup-0008-AppendixS2.7.tiff" download><i class="fas fa-download"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      <div id="help" class="tab-pane fade" role='tabpanel'>
+        <div class="card-body">
+          You can interact with the data using the toolbar found in the upper right corner of the figure. The functions are as follows:
+          <br>
+          <img src="resources/toolbar.png" alt="Bokeh Toolbar" width=135>
+          <br>
+          <h3><strong>Help:</strong></h3> If you are having diffculties loading the figures, please try viewing them in a browser <strong><em>other</em></strong> than Internet Explorer <i class="fab fa-internet-explorer"></i> such as Mozilla Forefox <i class="fab fa-firefox"></i> or
+          Google Chrome <i class="fab fa-chrome"></i>.
+          <br>
+        </div>
+      </div>
 
-
-  <button class="accordion">About</button>
-  <div class="panel">
-    <h3><strong>About:</strong></h3>
-    These figures are supplemental to:
-    <p id="tab"><cite>Goetz, F.W., Jasonowicz, A.J., and Roberts, S.B. 2017. What goes up must come down: Diel vertical migration in the deep-water sablefish (<i>Anoplopoma fimbria</i>) revealed by pop-up satellite archival tags. Fisheries Oceanography. doi:<a href="https://doi.org/10.1111/fog.12239">10.1111/fog.12239</a>.</cite></p>
-    They were made using <a href="http://bokeh.pydata.org/en/latest/" target="_blank">bokeh for python</a>.
-    <br>
-    <br>
+      <div id="about" class="tab-pane fade" role='tabpanel'>
+        <div class="card-body">
+          These figures are supplemental to:
+          <br>
+          <br>
+          <div class="alert alert-secondary" role="alert">
+            <cite>Goetz, F.W., Jasonowicz, A.J., and Roberts, S.B. 2017. What goes up must come down: Diel vertical migration in the deep-water sablefish (<i>Anoplopoma fimbria</i>) revealed by pop-up satellite archival tags. Fisheries Oceanography. doi:<a  class="link" href="https://doi.org/10.1111/fog.12239" target="_blank">10.1111/fog.12239</a>.</cite>
+          </div>
+          They were made using <a href="http://bokeh.pydata.org/en/latest/" target="_blank">bokeh for python</a>.
+        </div>
+      </div>
+    </div>
   </div>
 
-  <button class="accordion">Instructions/Help</button>
-  <div class="panel">
-    <h3><strong>Instructions:</strong></h3>
-    You can interact with the data using the toolbar found in the upper right corner of the figure.  The functions are as follows:
-    <br>
-    <img src="resources/toolbar.png" alt="Bokeh Toolbar" width=135>
-    <br>
-    <h3><strong>Help:</strong></h3>
-    If you are having diffculties loading the figures, please try viewing them in a browser <strong><em>other</em></strong> than Internet Explorer such as Mozilla Forefox or Google Chrome.
-    <br>
-  </div>
-  <script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
 
-  for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight){
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    }
-  }
-  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 
-  </body>
+
+</body>
+
 </html>
